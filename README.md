@@ -110,6 +110,16 @@ Authorization: Bearer {token}
 - `in_progress` — Task in progress
 - `done` — Task completed
 
+## Testing with Postman
+
+A Postman collection is included in this repository for easy API testing.
+
+1. Download and install [Postman](https://www.postman.com/downloads)
+2. Import `task-manager-api.postman_collection.json` into Postman
+3. Set the `base_url` variable to `http://127.0.0.1:8000`
+4. Register a new user first, then copy the token to the `token` variable
+5. You're ready to test all endpoints!
+
 ## License
 
 MIT
